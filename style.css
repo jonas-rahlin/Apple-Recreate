@@ -118,7 +118,7 @@ main{
         height:75vh;
         background:grey;
         margin-bottom:10px;
-        background-image: url(./hero1.png);
+        background-image: url(./assets/hero1.png);
         background-size: contain;
         position:relative;
 }
@@ -178,32 +178,34 @@ main{
 
 .grid-box{
         background: grey;
+        background-size: cover;
+        background-position: center;
         height:75vh;
         position:relative;
 }
 
 #grid-box-a{
-        background-image: url(./hero1.png);
+        background-image: url(./Assets/iphone12.jpg);
 }
 
 #grid-box-b{
-        background-image: url(./hero1.png);
+        background-image: url(./Assets/fitness.jpg);
 }
 
 #grid-box-c{
-        background-image: url(./hero1.png);
+        background-image: url(./Assets/card.jpg);
 }
 
 #grid-box-d{
-        background-image: url(./hero1.png);
+        background-image: url(./Assets/airpods.jpg);
 }
 
 #grid-box-e{
-        background-image: url(./hero1.png);
+        display:none;
 }
 
 #grid-box-f{
-        background-image: url(./hero1.png); 
+        display:none;
 }
 
 #terms{
