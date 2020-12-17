@@ -20,7 +20,7 @@ html {
 body{
         background:var(--white);
         font-family: helvetica;
-        font-size:14px;
+        font-size:17px;
 }
 
 hr{
@@ -37,6 +37,9 @@ nav{
         position:fixed;
         background:rgba(0,0,0,0.8);
         z-index:2;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        font-size:14px;
 }
 
 #nav-filler{
@@ -92,6 +95,7 @@ main{
         align-items:center;
         justify-content:center;
         color:white;
+        font-size:14px;
 }
 
 #banner a{
@@ -140,6 +144,7 @@ main{
 .hero-price{
         font-size:1.2em;
         margin:10px;
+        color:#86868b;
 }
 
 .hero-links{
@@ -154,6 +159,7 @@ main{
         z-index:1;
         position:relative;
 }
+
 .hero-links a{
         text-decoration:none;
         color:var(--blue);
@@ -182,11 +188,63 @@ main{
         background-position: center;
         height:75vh;
         position:relative;
+        text-align: center;
+}
+
+.grid-box img{
+        height:33px;
+        width:auto;
+}
+
+.box-info{
+        padding-top: 44px;
+        color:#1d1d1f;
+        width:50%;
+        margin:auto;
+}
+.box-links{
+        margin:10px;
+}
+
+.box-links p{
+display:inline;
+margin:15px;
+font-size:17px;
+color:var(--blue);
+z-index:1;
+position:relative;
+}
+
+.box-links a{
+        text-decoration:none;
+        color:var(--blue);
+}
+
+.box-links a:hover{
+        text-decoration:underline;
+}
+
+.box-headline{
+        font-size: 40px;
+}
+
+.box-subline{
+        font-size: 21px;
+}
+
+.box-price{
+        margin-top: 10px;
+}
+
+.box-text {
+        font-size: 17px;
+        color: #86868b;
 }
 
 #grid-box-a{
         background-image: url(./Assets/iphone12.jpg);
 }
+
 
 #grid-box-b{
         background-image: url(./Assets/fitness.jpg);
@@ -213,19 +271,30 @@ main{
 }
 
 #terms-list{
-        width:75%;
+        width:60%;
         margin:auto;
-        text-align:center;
-        background:grey;
         list-style-type:none;
+        font-size:10px;
+        color:#86868b;
+}
+
+#terms-list li{
+        padding:4px;
+}
+
+#terms-hr{
+        width:60%;
+        margin:auto;
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: 10px;
 }
 
 
 #navigation{
-        margin:auto;
-        width:75%;
-        background:grey;
-        
+        margin:auto;    
 }
 
 .navigation-column{
