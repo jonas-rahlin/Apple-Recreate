@@ -344,7 +344,51 @@ position:relative;
         text-decoration: underline;
 }
 
-#footer{
-        
+footer{
+        font-size:11px;
+        color:#86868b;
+        margin:auto;
+        width:60%;
+        margin-top:10px;
+        margin-bottom:30px;
+}
+
+footer a{
+        text-decoration: none;
+        color:#86868b;
+        padding:0px 10px;
+        border-right:solid 1px rgb(201, 201, 201);
+}
+
+#footer-rights{
+        padding-right: 10px;
+}
+
+#footer-links a:last-of-type{
+        border:none;
+}
+
+footer a:hover{
+        text-decoration: underline;
+}
+
+#footer-country{
+        float: right;      
+}
+
+#footer-country a{
+        border:none;
+        padding:0;
+}
+
+#footer-endnote{
+        color: white;
+        background-color: red;
+        font-size:20px;
+        text-align: center;
+        border:solid black 2px;
+        margin:auto;
+        margin-top:50px;
+        width:50%;
 }
 
