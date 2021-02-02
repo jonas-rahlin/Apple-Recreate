@@ -1,2 +1,1 @@
-z-index
-navbar click hide
+add styling for navbar re-enter
